@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+ body {
+  background: url(images/bg.png) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  
+}
+html body {
+  min-height: 100vh;
+}
+.heading-highlight
+{
+    color: gold;
+}
+/* main css start form here */
+.row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Navbar css start from here */
+.navbar
+{
+    background-color: transparent !important;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-item
+{
+    border: 2px solid rgb(109, 23, 208);
+    margin-right: 25px;
+    border-radius: 5px;
+}
+
+.border {
+  border: 2px solid rgb(109, 23, 208) !important;
+}
+
+.navbar-brand img, svg {
+    vertical-align:super!important;
+}
+
+.dropdown-menu
+{
+
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.active
+{
+    background-color:none
+    ;
+}
+
+/* form section css start from here */
+
+.form-section
+{
+    background-color: whitesmoke;
+    border-radius: 5px;
+  
+}
+
+.form-label
+{
+    font-size: 20px;
+    font-weight:500;
+}
+.btn
+{
+    margin:0px 10px;
+}
+.price-details
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner {
+    
+    padding: 35px;
+}
+.title
+{
+    font-size: 50px;
+    
+}
+
+/* footer css start form here */
+
+.footer
+{   
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: rgb(167, 173, 197);
+    color: rgb(21, 22, 22);
+    
+}
